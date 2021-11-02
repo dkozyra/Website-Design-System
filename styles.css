@@ -1,0 +1,181 @@
+body {
+    margin: 0 auto;
+  }
+
+main {
+  margin: 0 5%;
+  position: relative;
+  top: 200px;
+  overflow: auto;
+}
+
+header {
+    background-color: #d7e1ed;
+    border-bottom: 2px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+  }
+  
+nav ul {
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;  
+  }
+  
+nav li:hover {
+    color: #b61874;
+  }
+  
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+h2 {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+  }
+
+section {
+    border: 3px solid gray;
+    margin: 20px 0px;
+}
+
+.color {
+  border: 1px solid #466995;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.cool-blue {
+  background-color: #2d5dcc;
+}
+
+.pink {
+  background-color: #d957d9;
+}
+
+.mint-green {
+  background-color: #4fe0b0;
+}
+
+.cornflowerblue {
+  background-color: #6495ed;
+}
+
+.goldenrod {
+  background-color: #daa520;
+}
+
+.tomato {
+  background-color: #ff6347;
+}
+
+.font {
+  display: inline-block;
+  width: 45%;
+  margin: 20px 20px;
+}
+
+.label {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.lato {
+  font-family: Lato;
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+.montserrat {
+  font-family: Montserrat;
+}
+
+.barlow-condensed {
+  font-family: 'Barlow Condensed';
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.h1-style {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.h2-style {
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.p-style {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.positioning-container {
+  display: inline-block;
+  margin: 20px;
+  width: 45%
+}
+
+.positioning-example {
+  position: relative;
+  height: 10rem;
+  width: 20rem;
+  padding: 2rem
+}
+
+.fix-abs-rel-positioning-message {
+  position: absolute;
+  top: 7rem;
+  left: 6rem;
+  border: 1px solid red;
+  background: #e1e1e1
+}
+
+.stat-positioning-message {
+  position: absolute;
+  top: 0rem;
+  border: 1px solid red;
+  background: #e1e1e1
+}
+
+.static-p {
+  position: relative;
+  top: 3rem
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;0,900;1,400&family=Lato:ital,wght@0,100;0,400;0,900;1,400&family=Montserrat:ital,wght@0,100;0,400;0,900;1,400&family=Roboto:ital,wght@0,100;0,400;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Website Style Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#text-styles">Text&nbsp;Styles</a></li>
+                <li><a href="#positioning">Positioning</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section id="colors">
+                <h2>Colors</h2>
+                <div class="color cool-blue">
+                    <h3>Cool Blue</h3>
+                    <p>#2d5dcc</p>
+                </div>
+                <div class="color pink">
+                    <h3>Pink</h3>
+                    <p>#d957d9</p>
+                </div>    
+                <div class="color mint-green">
+                    <h3>Mint Green</h3>
+                    <p>#4fe0b0</p>
+                </div>
+                <div class="color cornflowerblue">
+                    <h3>Cornflowerblue</h3>
+                    <p>#6495ed</p>
+                </div>
+                <div class="color goldenrod">
+                    <h3>Goldenrod</h3>
+                    <p>#daa520</p>
+                </div>
+                <div class="color tomato">
+                    <h3>Tomato</h3>
+                    <p>#ff6347</p>
+                </div>
+            </section>
+            <section id="fonts">
+                <h2>Fonts</h2>
+                <div class="font">
+                    <p class="label lato">Lato</p>
+                    <p class="lato thin">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="lato regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="lato italic">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="lato bold">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font">
+                    <p class="label roboto">Roboto</p>
+                    <p class="roboto thin">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="roboto regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="roboto italic">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="roboto bold">The quick brown fox jumps over the lazy dog.</p>
+                </div>    
+                <div class="font">
+                    <p class="label montserrat">Montserrat</p>
+                    <p class="montserrat thin">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="montserrat regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="montserrat italic">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="montserrat bold">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font">
+                    <p class="label barlow-condensed">Barlow Condensed</p>
+                    <p class="barlow-condensed thin">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="barlow-condensed regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="barlow-condensed italic">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="barlow-condensed bold">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </section>
+            <section id="text-styles">
+                <h2>Text Styles</h2>
+                <div>
+                    <h1 class="bold montserrat h1-style">H1: Main heading page</h1>
+                    <ul>
+                        <li>Font-weight: 900 (Black)</li>
+                        <li>Font-size: 28px</li>
+                        <li>Font-family: Montserrat</li>
+                        <li>Text-decoration: underline</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="roboto h2-style">H2: Subheading</h2>
+                    <ul>
+                        <li>Font-weight: 400</li>
+                        <li>Font-size: 24px</li>
+                        <li>Font-family: Roboto</li>
+                        <li>Text-decoration: none</li>
+                    </ul>
+                </div>    
+                <div>
+                    <p class="barlow-condensed italic p-style">p: Paragraph</p>
+                    <ul>
+                        <li>Font-weight: 400</li>
+                        <li>Font-size: 20px</li>
+                        <li>Font-family: Barlow Condensed</li>
+                        <li>Font-style: italic</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="positioning">
+                <h2>Positioning</h2>
+                <div class="positioning-container">
+                <p class="montserrat italic label">Fixed</p>
+                <div class="positioning-example">
+                    <div class="fix-abs-rel-positioning-message">An element with fixed positioning is positioned relative to the viewport. If no other positioning values are given (
+                    <code>top, right, bottom, left</code>) it will start its positioning relative to where it is in the flow of the page.</div>
+                    <p class="h2-style italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+                <div class="positioning-container">
+                <p class="montserrat italic label">Absolute</p>
+                <div class="positioning-example">
+                    <div class="fix-abs-rel-positioning-message">An element with absolute positioning is positioned relative to its closest ancestor with relative positioning. If no other positioning values are given (
+                    <code>top, right, bottom, left</code>) it will start its positioning relative to where it is in the flow of the page.</div>
+                    <p class="h2-style italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+                <div class="positioning-container">
+                <p class="montserrat italic label">Relative</p>
+                <div class="positioning-example">
+                    <div class="fix-abs-rel-positioning-message">Like static, a relatively positioned element is put where its normal position would be in the document layout flow.</div>
+                    <p class="h2-style italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+                <div class="positioning-container">
+                <p class="montserrat italic label">Static</p>
+                <div class="positioning-example">
+                    <div class="stat-positioning-message">A static positioned element is positioned exactly as it comes in the flow of the page.</div>
+                    <p class="h2-style italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
